@@ -1,0 +1,38 @@
+{
+  "name": "my_ajs_homework_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "http-server ./dist",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyhun1979/my_ajs_homework_webpack.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Jeyhun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyhun1979/my_ajs_homework_webpack/issues"
+  },
+  "homepage": "https://github.com/Jeyhun1979/my_ajs_homework_webpack#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0",
+    "html-webpack-plugin": "^5.6.4",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.9.4",
+    "webpack": "^5.102.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
